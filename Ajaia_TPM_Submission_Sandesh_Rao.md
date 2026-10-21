@@ -1,9 +1,10 @@
 # Ajaia TPM Assessment — Sandesh Rao
 
-**Video:** [PASTE PUBLIC VIDEO LINK — title includes "Ajaia"]
-**Resume:** [PASTE PUBLIC RESUME LINK]
-**Build file:** `clean_exceptions.py` (attached / [GitHub link]) · sample input `exceptions_raw.csv` · output `exceptions_clean.csv`
-**Email:** sandeshsrao@gmail.com · **Optional work:** [GitHub / portfolio link, or remove]
+Video:[PASTE PUBLIC VIDEO LINK — title includes "Ajaia"]
+Resume:https://drive.google.com/file/d/1lDcaDMLnrmxlUCEin_fCHGdvB6YLWy40/view?usp=drive_link
+Build file: clean_exceptions.py (https://github.com/sandeshrao80/aj_assignment.git)
+sample input - exceptions_raw.csv · output - exceptions_clean.csv
+Email: sandeshsrao@gmail.com 
 
 Prepared for Ajaia (https://ajaia.ai) — Corrigan Peak Logistics, Dispatch Exception Triage engagement.
 
@@ -114,14 +115,10 @@ Technical Project Manager, Ajaia
 
 **What I kept human:** the calls themselves: ranking B over C, declining auto-reassign while giving Dana a way to say "yes, next phase" to her COO, the Terminal 1 & 2 fallback, the Aug 20 and Aug 26 dates, and the decision to tell the client plainly that last Friday's update was wrong. I also worked out the expected counts by hand from the five raw rows *before* trusting any output, and the self-test asserts against my numbers rather than the script's own.
 
-**One thing I checked or rejected:** [REPLACE WITH YOUR REAL EXAMPLE. Candidates from this session: (a) the natural instinct, mine and the tool's, is to convert the `Z` timestamp to local time so all rows "match"; I rejected that because we don't know Terminal 3's zone, and a confident wrong conversion would corrupt SLA and lateness math, so the script keeps the clock value and flags it; (b) a draft status line that said nothing had reached the client "yet" was rewritten to state plainly that nothing has gone to production, because I won't make a claim I haven't confirmed with Priya. Use only what you actually did.]
+**One thing I checked or rejected:** the natural instinct, mine and the tool's, is to convert the `Z` timestamp to local time so all rows "match"; I rejected that because we don't know Terminal 3's zone, and a confident wrong conversion would corrupt SLA and lateness math, so the script keeps the clock value and flags it;
 
 ---
 
 ## Video outline (5–10 min)
 
-1. **(1 min)** The situation in one breath: 3 weeks out, two real risks hidden behind a Green status.
-2. **(2 min)** Triage, B → C → D → A → E. Name E as noise, and explain why A is a "yes, Phase 2," not a "no."
-3. **(2 min)** Live demo: `python3 clean_exceptions.py --self-test`, then the real run. Point at CPX-88215 (UTC, not converted) and CPX-88216 (blank carrier, flagged), and say how that feeds the IT questions.
-4. **(2 min)** Status update to Dana: the correction first, Amber, the Aug 20 ask, the Aug 26 fallback.
-5. **(1–2 min)** Who I am: 20+ years in IT, about 16 as PM/TPM (Tata Neu insurance module at 1M subscribers; Odoo across 230 branches); now building AI agents and n8n automation at Sita Infobytes. Why this role: I've been the TPM between an engineer and a client, and the AI-native, forward-deployed model is exactly where I've been building. Why Ajaia: [one specific line from ajaia.ai]. Salary expectation: [your range]. Do not mention current compensation.
+Available within the github repo
