@@ -1,0 +1,6 @@
+exception_id,terminal,event_type,carrier_code,event_ts,status,notes
+CPX-88213,Terminal 3,missed_pickup,SWFT,2026-08-14 09:12:00,CLEAN,
+CPX-88214,Terminal 3,doc_mismatch,SWFT,2026-08-14 09:45:00,CLEAN_WITH_NOTE,source had no seconds; seconds set to :00
+CPX-88215,Terminal 3,missed_pickup,SWFT,2026-08-14 10:03:00,CLEAN_WITH_NOTE,"timestamp is explicitly UTC ('Z') while other rows have no zone; kept clock value as-is, NOT converted - zone must be confirmed by Corrigan Peak IT before ordering/SLA math across rows"
+CPX-88216,Terminal 3,doc_mismatch,,2026-08-14 11:47:00,FLAGGED,carrier_code is blank - cannot infer carrier
+CPX-88217,Terminal 3,carrier_substitution,RLCX,2026-08-15 08:02:00,CLEAN_WITH_NOTE,source had no seconds; seconds set to :00
